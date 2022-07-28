@@ -7,7 +7,7 @@ Demo version 1.0 en servidor gratuito [Netlify](https://www.netlify.com/ "Netlif
 
 |HTML|SASS|GitHub|
 |---|---|---|
-|[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" width="50"/>]()|[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/800px-Sass_Logo_Color.svg.png" width="50"/]()| [<img src="https://blog.chuidiang.org/wp-content/uploads/2022/06/25231.png" width="50"/>]()|
+|[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" width="50"/>]()|[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/800px-Sass_Logo_Color.svg.png" width="50"/>]()| [<img src="https://blog.chuidiang.org/wp-content/uploads/2022/06/25231.png" width="50"/>]()|
 <br/>
 
 ## Descarga y aplica cambios.
@@ -23,7 +23,7 @@ Es recomendado, descargar el proyecto de Github para sus cambios y crear las ver
 -
 
 ## React JS
-[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png"/ width="100">](https://es.reactjs.org/)
+[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png" width="100"/>](https://es.reactjs.org/)
 
 Proyecto originamente en React Js por su carga de contenido de imagenes y video, consumiendo una API o un JSON de su canal de YouTube [somosvisionmx](https://www.youtube.com/channel/UCVUHbx0FW9tvf3k0XrCslRA "somosvisionmx"), para su mejor navegacion y tiempo de carga del sitio web.
 
