@@ -7,7 +7,7 @@ Demo version 1.0 en servidor gratuito [Netlify](https://www.netlify.com/ "Netlif
 
 |HTML|SASS|GitHub|
 |---|---|---|
-|[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png"/ width="50">]()|[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/800px-Sass_Logo_Color.svg.png"/ width="50">]()| [<img src="https://blog.chuidiang.org/wp-content/uploads/2022/06/25231.png"/ width="50">]()|
+|[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" width="50"/>]()|[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/800px-Sass_Logo_Color.svg.png" width="50"/]()| [<img src="https://blog.chuidiang.org/wp-content/uploads/2022/06/25231.png" width="50"/>]()|
 <br/>
 
 ## Descarga y aplica cambios.
