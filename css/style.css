@@ -28,22 +28,24 @@ p {
   color: #ffffff !important;
 }
 
+label {
+  color: #fff !important;
+}
+
 li {
   color: #fff;
 }
 
 header {
-  z-index: 999999 !important;
+  z-index: 9999999;
   width: 100%;
   overflow: hidden;
-  height: 100px;
-  position: fixed !important;
 }
 
 header .list-menu .list li .item-menu {
   display: inline-block;
   position: relative;
-  color: #fff;
+  color: #ffffff;
 }
 
 header .list-menu .list li .item-menu:after {
@@ -55,6 +57,7 @@ header .list-menu .list li .item-menu:after {
   height: 2px;
   bottom: 0;
   left: 0;
+  background-color: #d10;
   -webkit-transform-origin: bottom right;
           transform-origin: bottom right;
   -webkit-transition: -webkit-transform 0.25s ease-out;
@@ -71,6 +74,7 @@ header .list-menu .list li .item-menu:hover:after {
 }
 
 header .menu-bar-movil {
+  background: #121212;
   width: 100%;
   position: fixed;
   z-index: 99999 !important;
@@ -93,18 +97,21 @@ header .menu-bar-movil .logo-menu-movil {
 header .menu-bar-movil .burger-menu {
   cursor: pointer;
   font-size: 2.1875rem;
+  color: #fff;
+  z-index: 999999 !important;
 }
 
 header .menu-bar-movil .slideMenu {
   position: fixed;
   height: 100%;
   top: 0;
-  left: -80%;
-  background: #fff;
+  left: -100%;
+  background: #121212;
   text-align: left;
-  width: 80%;
+  width: 100%;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
+  border-right: 8px solid #d400f0;
 }
 
 header .menu-bar-movil .slideMenu.active {
@@ -120,12 +127,15 @@ header .menu-bar-movil .slideMenu .top-redes a {
 }
 
 header .menu-bar-movil .slideMenu .menu-principal a {
+  top: 200px;
   display: block;
   padding: 0.625rem 1rem;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 header .menu-bar-movil .slideMenu .menu-principal a:hover {
-  background: #fff;
+  background: #d400f0;
 }
 
 @media (max-width: 600px) {
@@ -156,12 +166,48 @@ header .menu-bar-movil .slideMenu .menu-principal a:hover {
   }
 }
 
+@-webkit-keyframes aparecer {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+.ocultar {
+  opacity: 0;
+}
+
+.animar {
+  -webkit-animation: aparecer 1.3s;
+          animation: aparecer 1.3s;
+}
+
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
   overflow: hidden;
   right: 0;
   bottom: 0;
   min-width: 100%;
+  width: 100vw;
   min-height: 100%;
   height: 100vh;
 }
@@ -177,21 +223,6 @@ header .menu-bar-movil .slideMenu .menu-principal a:hover {
 }
 
 /* Style the button used to pause/play the video */
-#myBtn {
-  width: 200px;
-  font-size: 18px;
-  padding: 10px;
-  border: none;
-  background: #000;
-  color: #fff;
-  cursor: pointer;
-}
-
-#myBtn:hover {
-  background: #ddd;
-  color: black;
-}
-
 .text-animation {
   width: 100%;
   height: 100px;
@@ -222,6 +253,18 @@ header .menu-bar-movil .slideMenu .menu-principal a:hover {
   }
   .menu {
     z-index: 8 !important;
+  }
+  #myVideo {
+    height: 500px !important;
+  }
+  .footer {
+    height: 450px !important;
+  }
+  .contain-colabora {
+    padding-top: 120px !important;
+  }
+  .contain-colabora .title-col {
+    padding: 80px 0;
   }
 }
 
@@ -280,12 +323,6 @@ header .menu-bar-movil .slideMenu .menu-principal a:hover {
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
-}
-
-* {
-  font-size: 16px;
-  margin: 0;
-  padding: 0;
 }
 
 .cont-gral {
@@ -468,7 +505,6 @@ header .menu-bar-movil .slideMenu .menu-principal a:hover {
 
 @media screen and (max-width: 700px) {
   .cont-title {
-    background: #626262;
     display: block;
     padding: 0;
   }
@@ -538,5 +574,9 @@ header .menu-bar-movil .slideMenu .menu-principal a:hover {
 .carousel .carousel-item {
   width: 100%;
   height: 300px;
+}
+
+.contain-colabora {
+  padding-top: 200px;
 }
 /*# sourceMappingURL=style.css.map */

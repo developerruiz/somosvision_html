@@ -13,10 +13,14 @@
     <title>Somos vision mx</title>
 
     <link rel="stylesheet" href="css/style.css">
-
+    <!-- FONTAWENSOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
 
+
+<body>
     <header class="cont-header position-absolute">
 
         <div class="container">
@@ -31,14 +35,18 @@
 
                 <div class="list-menu">
                     <ul class="list-unstyled d-flex list">
-                        <li><a href="contenido.html" class="text-decoration-none mx-3 color-white fs-5 item-menu ">CONTENIDO</a>
+                        <li><a href="contenido.html"
+                                class="text-decoration-none mx-3 color-white fs-5 item-menu ">CONTENIDO</a>
                         </li>
                         <li><a href="staff.html" class="text-decoration-none mx-3 color-white fs-5 item-menu ">STAFF</a>
                         </li>
-                        <li><a href="instalaciones.html" class="text-decoration-none mx-3 color-white fs-5 item-menu ">INSTALACIONES</a></li>
-                        <li class="m-0 p-0"><a href="colabora.html" class="btn-contacto"> COLABORA</a></li>
-                        <li class="m-0 p-0"><a href="notas.html" class="btn-contacto"> NOTAS</a></li>
+                        <li><a href="instalaciones.html"
+                                class="text-decoration-none mx-3 color-white fs-5 item-menu ">INSTALACIONES</a></li>
+                        <li class="m-0 p-0"><a href="colabora.html"
+                                class="text-decoration-none mx-3 color-white fs-5 item-menu"> COLABORA</a></li>
 
+                        <!-- <li class="m-0 p-0"><a href="notas.html"
+                                class="text-decoration-none mx-3 color-white fs-5 item-menu"> NOTAS</a></li> -->
                     </ul>
                 </div>
 
@@ -55,15 +63,15 @@
             <div class="slideMenu" id="slideMenu">
                 <div class="logo-menu-movil m-3">
                     <a href="index.html" aria-label="Inicio">
-                        <img src="img/logo-frasangreen.webp" alt="Frasan green img">
+                        <img src="img/logo.png" alt="Frasan green img">
                     </a>
                 </div>
 
                 <nav class="menu-principal mt-5">
-                    <a href="#home" class="text-decoration-none color-s volver-arriba"> Inicio</a>
-                    <a href="#about" class="text-decoration-none color-s scroll-suave">Nosotros</a>
-                    <a href="#servicios" class="text-decoration-none color-s scroll-suave">Servicios</a>
-                    <a href="#contacto" class="text-decoration-none color-s scroll-suave">Contacto</a>
+                    <a href="contenido.html" class="text-decoration-none color-s volver-arriba"> CONTENIDO</a>
+                    <a href="staff.html" class="text-decoration-none color-s scroll-suave">STAFF</a>
+                    <a href="instalaciones.html" class="text-decoration-none color-s scroll-suave">INSTALACIONES</a>
+                    <a href="colabora.html" class="text-decoration-none color-s scroll-suave">COLABORA</a>
                 </nav>
 
                 <div class="position-absolute bottom-0 m-3">
@@ -73,61 +81,64 @@
         </div>
     </header>
 
-<section>
-    <div class="container" >
-        <div class="row">
-            <div class="col-lg-12 text-center" style="margin-top: 150px;">
-                <h1 class="fw-bold display-5">INSTALACIONES</h1>
-            </div>
-            <div class="col-lg-12 text-center">
-                <h1 class="fw-bold fs-4">ESTUDIOS ELENA</h1>
-            </div>
+
+    <div class="container" style="margin-bottom: 100px;">
+        <div class="col-lg-12 contain-colabora">
+            <h1 class="text-center pt-100 title-col">COLABORA CON NOSOTROS</h1>
         </div>
+        <div class="col-lg-12 d-flex flex-wrap pb-5 ocultar contador">
+            <div class="col-lg-6 col-12 p-lg-4">
+                <form action="" method="post" class="">
+                    <div class="mb-3">
+                        <label htmlFor="">¿Cómo te llamas?</label>
+                        <input type="text" name="" id="" class="form-control" placeholder="Nombre" />
+                    </div>
+                    <div class="mb-3">
+                        <label htmlFor="">¿Cuál es tu talento?</label>
+                        <input type="text" name="" id="" class="form-control" placeholder="Área" />
+                    </div>
 
-        <!-- CAROUSEL -->
-        <div class="col-lg-12 d-flex flex-wrap mt-5">
+                    <div class="mb-3">
+                        <label htmlFor="">¿Donde vives?</label>
+                        <input type="text" name="" id="" class="form-control" placeholder="Dirección" />
+                    </div>
 
-                <div class="col-lg-6">
-                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img src="img/banner-1.jpg" class="d-block w-100" alt="">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="img/banner-2.jpg" class="d-block w-100" alt="">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="img/banner-3.jpg" class="d-block w-100" alt="">
-                          </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
-                      </div>
+                    <div class="mb-3">
+                        <label htmlFor="">¿Dónde te contactamos?</label>
+                        <input type="text" name="" id="" class="form-control mb-3" placeholder="Correo electrónico" />
+                        <input type="text" name="" id="" class="form-control" placeholder="Teléfono" />
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-6 col-12 p-lg-4">
+                <div class="mb-3">
+                    <label htmlFor="">Cuentanos sobre ti</label>
+                    <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="..."></textarea>
                 </div>
 
-                <div class="col-lg-6 p-4">
-                    <h2>Lorem ipsum dolor sit amet.</h2>
-                    <ul class="color-white">
-                        <li>FOTOGRAFÍA</li>
-                        <li>BRANDING Y NAMING</li>
-                        <li>CREACIÓN DE CONCEPTO</li>
-                        <li>ANIMACIÓN Y MOTION GRAPHICS</li>
-                        <li>ENTREVISTAS Y REPORTAJES</li>
-                        <li>CREACIÓN DE CONTENIDO AUDIOVISUAL</li>
-
-                    </ul>
+                <div class="mb-3">
+                    <label htmlFor="">Muéstranos tu trabajo</label>
+                    <div>
+                        <label class="btn btn-light text-muted col-6" for="file">
+                            Subir PDF
+                        </label>
+                        <input type="file" name="file" id="file" class="form-control visually-hidden" />
+                    </div>
                 </div>
 
-        </div>
+                <div class="mb-3">
+                    <label htmlFor="">Tu usuario de Instagram</label>
+                    <input type="text" name="" id="" class="form-control" placeholder="Dirección" />
+                </div>
 
+                <div class="mb-3 position-relative d-flex justify-content-end">
+                    <button class="btn-danger px-5 py-2 rounded-3 position-absolute ">
+                        Enviar
+                    </button>
+                </div>
+            </div>
+        </div>
     </div>
-</section>
 
 
     <!-- Optional JavaScript; choose one of the two! -->
@@ -160,6 +171,10 @@
             }
         }
     </script>
+
+    <script src="js/script.js"></script>
+
+
 </body>
 
 
